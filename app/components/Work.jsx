@@ -44,20 +44,21 @@ const Work = ({ isDarkMode }) => {
 
       {/* Projects Grid */}
       <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.9, duration: 0.6 }}
-            className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 justify-center items-center gap-9 max-w-[90%] mx-auto"
-
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1 }}
+  transition={{ delay: 0.9, duration: 0.6 }}
+  className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 justify-center items-center max-w-[90%] mx-auto"
 >
+
 
         {workData.map((project, index) => (
           <motion.div
-            key={index}
-            whileHover={{ scale: 1.03 }}
-            transition={{ duration: 0.3 }}
-            className="relative group cursor-pointer rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 w-[280px] h-[350px] mx-auto"
-          >
+          key={index}
+          whileHover={{ scale: 1.03 }}
+          transition={{ duration: 0.3 }}
+          className="relative group cursor-pointer rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 w-full sm:w-[280px] h-[350px] mx-auto"
+        >
+        
             {/* Background Image */}
             <div
               className="w-full h-44 bg-cover bg-center transition-all duration-300"
