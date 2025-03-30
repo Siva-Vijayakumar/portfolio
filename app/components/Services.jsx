@@ -36,7 +36,7 @@ const certificates = [
     description: "Certified by Udemy",
   },
   {
-    title: "Backend Development",
+    title: "Flutter Development",
     image: assets.flutter,
     description: "Certified by Udemy ",
   },
