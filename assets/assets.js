@@ -20,7 +20,7 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+import profile_img from './profile.jpg';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -106,13 +106,13 @@ export const workData = [
 
     },
     {
-        title: 'Golden Key Properties',
-        description: 'Mobile App',
-        bgImage: '/properties.jpg',
-        techstack: ['React',  'Tailwind', 'Node.js', 'Socket.io' , 'MongoDB', 'Cloudinary'],
-           liveLink : 'https://estate-mern-project-li5z.onrender.com/',
-        gitubLink : 'https://github.com/Siva-Vijayakumar/Estate-Mern-Project',
-        description: 'A full-stack real estate app with CRUD functionalities, allowing users to post listings and engage in one-to-one chats.'
+        title: 'Job Portal',
+        description: 'Web Application',
+        bgImage: '/job.webp',
+        techstack: ['MERN', 'Clerk', 'Sentry'],
+           liveLink : 'https://job-portal-roan-alpha.vercel.app/',
+        gitubLink : 'https://github.com/Siva-Vijayakumar/Job-Portal',
+        description: 'A Job Protal Application where the recruiters can post their job openings and the candidates can register for the jobs and track their status of the application.'
 
 
     },
