@@ -126,18 +126,7 @@ export const workData = [
         description: 'A responsive website for a local bakery and juice shop built using HTML, CSS, JavaScript, Bootstrap and React. The website features a parallax effect, a gallery section and an about section.'
 
 
-    },
-    {
-        title: 'Ai Chat App',
-        description: 'UI/UX Design',
-        bgImage: '/work-1.jpg',
-        techstack: ['Node js', 'Express js', 'Gemini-Api' , 'Ejs' , 'Html & CSS'],
-           liveLink : 'https://silo-ai-84sv.onrender.com/',
-        gitubLink : 'https://github.com/silo-bros/silo-ai-gemini',
-        description: 'AI chatbot built using Gemini API that can be used for tasks such as answering questions, generating code, providing definitions.'
-
-
-    },
+    }
 ]
 
 export const serviceData = [
