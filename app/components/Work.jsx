@@ -52,14 +52,14 @@ const Work = ({ isDarkMode }) => {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.9, duration: 0.6 }}
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 w-max mx-auto"
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-8 w-full"
       >
         {workData.map((project, index) => (
           <motion.div
             key={index}
             whileHover={{ scale: 1.03 }}
             transition={{ duration: 0.3 }}
-            className="relative cursor-pointer rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 w-full sm:w-[260px] min-h-[380px] mx-auto"
+            className="group relative cursor-pointer rounded-lg overflow-hidden shadow-lg bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 w-full min-h-[380px]"
             onClick={() => handleTap(index)}
           >
             {/* Background Image */}
